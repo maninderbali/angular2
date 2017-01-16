@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
 export class CheckboxComponent {
 
     gender: string = 'male';
+
+    maleCheckBox() {
+        console.log('checkbox click ');
+    }
 }
