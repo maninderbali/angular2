@@ -11,6 +11,8 @@ var forms_1 = require("@angular/forms");
 var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
 var app_routing_1 = require("./app.routing");
+var home_component_1 = require("./home/home.component");
+var checkbox_component_1 = require("./checkbox/checkbox.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -20,10 +22,12 @@ AppModule = __decorate([
     core_1.NgModule({
         declarations: [
             app_component_1.AppComponent,
+            checkbox_component_1.CheckboxComponent,
+            home_component_1.HomeComponent
         ],
         imports: [
             platform_browser_1.BrowserModule,
-            forms_1.ReactiveFormsModule,
+            forms_1.FormsModule,
             http_1.HttpModule,
             http_1.JsonpModule,
             app_routing_1.routing

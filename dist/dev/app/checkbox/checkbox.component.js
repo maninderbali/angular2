@@ -6,20 +6,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
+var CheckboxComponent = (function () {
+    function CheckboxComponent() {
+        this.gender = 'male';
     }
-    AppComponent.prototype.ngOnInit = function () {
-        console.log('AppComponent initializing...');
-    };
-    return AppComponent;
+    return CheckboxComponent;
 }());
-AppComponent = __decorate([
+CheckboxComponent = __decorate([
     core_1.Component({
-        selector: 'my-app',
-        templateUrl: './app/app.component.html'
+        selector: 'checkbox',
+        templateUrl: './app/checkbox/checkbox.component.html'
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
+], CheckboxComponent);
+exports.CheckboxComponent = CheckboxComponent;
 
-//# sourceMappingURL=app.component.js.map
+//# sourceMappingURL=checkbox.component.js.map
