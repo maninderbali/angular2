@@ -11,8 +11,6 @@ var forms_1 = require("@angular/forms");
 var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
 var app_routing_1 = require("./app.routing");
-var home_component_1 = require("./home/home.component");
-var checkbox_component_1 = require("./checkbox/checkbox.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -21,9 +19,7 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         declarations: [
-            app_component_1.AppComponent,
-            checkbox_component_1.CheckboxComponent,
-            home_component_1.HomeComponent
+            app_component_1.AppComponent
         ],
         imports: [
             platform_browser_1.BrowserModule,

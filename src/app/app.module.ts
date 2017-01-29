@@ -5,14 +5,10 @@ import {HttpModule, JsonpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
 import {routing, appRoutingProviders} from './app.routing';
-import {HomeComponent} from './home/home.component';
-import {CheckboxComponent} from './checkbox/checkbox.component';
 
 @NgModule({
     declarations: [
-        AppComponent,
-        CheckboxComponent,
-        HomeComponent
+        AppComponent
     ],
     imports: [
         BrowserModule,

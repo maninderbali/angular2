@@ -1,3 +1,35 @@
+<style>
+
+    .right{ line-height: 24px; padding-top: 8px; margin-right: 10px; float:right; }
+    .language-icon {
+        border: 1px solid #d3d3d3;
+        color: #202020;
+        padding-right: 17px;
+        padding-left: 5px;
+        display: inline-block;
+        font-size: 36px;
+        width: auto;
+        text-align: left;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .language-icon span {
+        font-weight: bold;
+    }
+
+    .arrow-down {
+        width: 0;
+        height: 0;
+        position: absolute;
+        right: 1px;
+        top: 45%;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #202020;
+    }
+</style>
+
 <div class="header-container">
     <header>
         <h1 class="title">My Angular2 + TypeScript App</h1>
@@ -14,3 +46,18 @@
         <span>&copy; 2016</span>
     </footer>
 </div>
+
+
+
+
+<a class="language-icon" href="#" alt="Choose your language" (click)="testMe()">Language: <span>English</span>
+  <div class="arrow-up"></div>
+  <div class="arrow-down"></div>
+</a>
+
+<div _ngcontent-xxx-0="" style="
+    border: 1px solid;
+    width: 439px;
+    height: 250px;
+    margin-top: 5px;
+">Maninder Bali</div>

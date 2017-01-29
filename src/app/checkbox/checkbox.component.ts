@@ -7,7 +7,7 @@ export class CheckboxComponent {
 
     gender: string = 'male';
 
-    maleCheckBox() {
-        console.log('checkbox click ');
+    private logText(value: string): void {
+        console.log('value', value);
     }
 }
